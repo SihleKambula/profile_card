@@ -17,21 +17,21 @@ body {
 
 .background .top-pattern {
   position: absolute;
-  bottom: -55%;
-  right: -10%;
+  bottom: -90%;
+  right: -20%;
   z-index: -1;
 }
 
 .background .bottom-pattern {
   position: absolute;
-  top: -45%;
-  left: -10%;
+  top: -90%;
+  left: -20%;
 }
 
 .card {
   position: absolute;
-  top: 25%;
-  left: 40%;
+  top: 20%;
+  left: 35%;
   background-color: white;
   width: 400px;
   height: 400px;
@@ -58,18 +58,20 @@ body {
 .card-container .card-background .card-content .name-and-age {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 .card-container .card-background .card-content .name-and-age .name {
   font-size: 1.2rem;
   font-weight: bold;
   margin: 0 10px;
+  padding: 2px;
 }
 
 .card-container .card-background .card-content .name-and-age .age {
   font-size: 1.2rem;
   opacity: 0.7;
+  padding: 2px;
 }
 
 .card-container .card-background .card-content .city {
@@ -94,6 +96,7 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
+  padding: 2px;
 }
 
 .card-container .card-background .card-content .social-insight .following span,
@@ -101,6 +104,7 @@ body {
 .card-container .card-background .card-content .social-insight .photos span {
   font-size: 0.9rem;
   opacity: 0.7;
+  padding: 2px;
 }
 
 .card-container .image-container {
