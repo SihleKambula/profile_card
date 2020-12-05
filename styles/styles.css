@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: #19a2ae;
+}
+
+.background {
+  position: relative;
+  height: 100vh;
+}
+
+.background .top-pattern {
+  position: absolute;
+  bottom: -55%;
+  right: -10%;
+  z-index: -1;
+}
+
+.background .bottom-pattern {
+  position: absolute;
+  top: -45%;
+  left: -10%;
+}
+
+.card {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.384);
+}
+
+.card-container .card-background {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container .card-background .card-pattern {
+  background: url(../images/bg-pattern-card.svg);
+  width: 100%;
+  height: 150px;
+}
+
+.card-container .card-background .card-content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card-container .card-background .card-content .name-and-age {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-container .card-background .card-content .name-and-age .name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.card-container .card-background .card-content .name-and-age .age {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.card-container .card-background .card-content .city {
+  margin: 10px 0;
+  opacity: 0.7;
+}
+
+.card-container .card-background .card-content hr {
+  margin: 25px 0;
+  opacity: 0.3;
+}
+
+.card-container .card-background .card-content .social-insight {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container .card-background .card-content .social-insight .following p,
+.card-container .card-background .card-content .social-insight .likes p,
+.card-container .card-background .card-content .social-insight .photos p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-container .card-background .card-content .social-insight .following span,
+.card-container .card-background .card-content .social-insight .likes span,
+.card-container .card-background .card-content .social-insight .photos span {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.card-container .image-container {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+.card-container .image-container img {
+  border: 5px solid white;
+  border-radius: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  .background .top-pattern {
+    bottom: 10%;
+    right: 20%;
+  }
+  .background .bottom-pattern {
+    top: 50%;
+    left: 10%;
+  }
+  .card {
+    top: 20%;
+    left: 10%;
+    width: 300px;
+    height: 380px;
+  }
+  .card .card-background .card-pattern {
+    height: 120px;
+  }
+  .card .image-container {
+    top: 18%;
+    left: 35%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
